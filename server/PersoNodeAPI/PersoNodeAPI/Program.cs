@@ -1,5 +1,17 @@
 var builder = WebApplication.CreateBuilder(args);
 
+var AllowedOrigins = "_AllowedOrigins";
+
+var clientURL = "https://localhost:4200";
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: AllowedOrigins, policy =>
+    {
+        policy.WithOrigins(clientURL);
+    });
+});
+
 // Add services to the container.
 
 builder.Services.AddControllers();
@@ -17,6 +29,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
+app.UseCors(AllowedOrigins);
 
 app.UseAuthorization();
 

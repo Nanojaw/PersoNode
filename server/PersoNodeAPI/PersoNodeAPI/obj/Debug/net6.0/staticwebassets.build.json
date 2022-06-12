@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "5xb41QPUDCnFu8zLq+rHTvrysevVsEZtxJOPiyuHtXk=",
+  "Source": "PersoNodeAPI",
+  "BasePath": "_content/PersoNodeAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
