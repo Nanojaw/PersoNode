@@ -1,25 +1,31 @@
 {
   "format": 1,
   "restore": {
-    "/home/tuffen/reps/PersoNode/server/PersoNodeAPI/PersoNodeAPI/PersoNodeAPI.csproj": {}
+    "C:\\Users\\malte\\Downloads\\devStuff\\repos\\PersoNode\\server\\PersoNodeAPI\\PersoNodeAPI\\PersoNodeAPI.csproj": {}
   },
   "projects": {
-    "/home/tuffen/reps/PersoNode/server/PersoNodeAPI/PersoNodeAPI/PersoNodeAPI.csproj": {
+    "C:\\Users\\malte\\Downloads\\devStuff\\repos\\PersoNode\\server\\PersoNodeAPI\\PersoNodeAPI\\PersoNodeAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/tuffen/reps/PersoNode/server/PersoNodeAPI/PersoNodeAPI/PersoNodeAPI.csproj",
+        "projectUniqueName": "C:\\Users\\malte\\Downloads\\devStuff\\repos\\PersoNode\\server\\PersoNodeAPI\\PersoNodeAPI\\PersoNodeAPI.csproj",
         "projectName": "PersoNodeAPI",
-        "projectPath": "/home/tuffen/reps/PersoNode/server/PersoNodeAPI/PersoNodeAPI/PersoNodeAPI.csproj",
-        "packagesPath": "/home/tuffen/.nuget/packages/",
-        "outputPath": "/home/tuffen/reps/PersoNode/server/PersoNodeAPI/PersoNodeAPI/obj/",
+        "projectPath": "C:\\Users\\malte\\Downloads\\devStuff\\repos\\PersoNode\\server\\PersoNodeAPI\\PersoNodeAPI\\PersoNodeAPI.csproj",
+        "packagesPath": "C:\\Users\\malte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\malte\\Downloads\\devStuff\\repos\\PersoNode\\server\\PersoNodeAPI\\PersoNodeAPI\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/tuffen/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\malte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -38,6 +44,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.1.10, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
@@ -61,7 +75,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/home/tuffen/.dotnet/sdk/6.0.202/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
         }
       }
     }
